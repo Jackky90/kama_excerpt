@@ -44,7 +44,7 @@ function kama_excerpt( $args = '' ): string {
 		'maxchar'           => 350,
 		'text'              => '',
 		'autop'             => true,
-		'more_text'         => 'Reed more...',
+		'more_text'         => 'Read more...',
 		'ignore_more'       => false,
 		'save_tags'         => '<strong><b><a><em><i><var><code><span>',
 		'sanitize_callback' => static function( string $text, object $rg ) {
@@ -125,4 +125,3 @@ function kama_excerpt( $args = '' ): string {
 
 	return $text;
 }
-
